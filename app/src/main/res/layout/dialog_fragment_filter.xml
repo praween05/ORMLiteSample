@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:layout_margin="@dimen/spacing_filter_dialog">
+
+    <Button android:id="@+id/btn_limit_data"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_get_5_data"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="@dimen/spacing_filter_button"
+            android:textColor="@android:color/white"/>
+
+    <Button android:id="@+id/btn_order_by_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_order_by_name"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="@dimen/spacing_filter_button"
+            android:textColor="@android:color/white"/>
+
+    <Button android:id="@+id/btn_order_by_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_order_by_created_time"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="@dimen/spacing_filter_button"
+            android:textColor="@android:color/white"/>
+
+</LinearLayout>
